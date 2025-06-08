@@ -1,0 +1,9 @@
+{
+  "platforms": ["apple", "android", "web"],
+  "apple": {
+    "modules": ["ExpoBlurSnapshotModule"]
+  },
+  "android": {
+    "modules": ["expo.modules.blursnapshot.ExpoBlurSnapshotModule"]
+  }
+}
