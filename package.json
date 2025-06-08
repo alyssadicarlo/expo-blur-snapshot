@@ -1,7 +1,18 @@
 {
   "name": "expo-blur-snapshot",
   "version": "0.1.0",
-  "description": "My new module",
+  "description": "Automatically blur or secure your app snapshot using FLAG_SECURE on Android and UIVisualEffectView on iOS.",
+  "keywords": [
+    "expo",
+    "react-native",
+    "privacy",
+    "secure",
+    "blur",
+    "flag_secure",
+    "expo",
+    "expo-blur-snapshot",
+    "ExpoBlurSnapshot"
+  ],
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
@@ -15,12 +26,6 @@
     "open:ios": "xed example/ios",
     "open:android": "open -a \"Android Studio\" example/android"
   },
-  "keywords": [
-    "react-native",
-    "expo",
-    "expo-blur-snapshot",
-    "ExpoBlurSnapshot"
-  ],
   "repository": "https://github.com/alyssadicarlo/expo-blur-snapshot",
   "bugs": {
     "url": "https://github.com/alyssadicarlo/expo-blur-snapshot/issues"

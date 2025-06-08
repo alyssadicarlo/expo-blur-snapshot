@@ -1,11 +1,7 @@
 import { NativeModule, requireNativeModule } from 'expo';
 
-import { ExpoBlurSnapshotModuleEvents } from './ExpoBlurSnapshot.types';
-
-declare class ExpoBlurSnapshotModule extends NativeModule<ExpoBlurSnapshotModuleEvents> {
-  PI: number;
-  hello(): string;
-  setValueAsync(value: string): Promise<void>;
+declare class ExpoBlurSnapshotModule extends NativeModule {
+  getTheme(): string;
 }
 
 // This call loads the native module object from the JSI.
